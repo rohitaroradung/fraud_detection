@@ -43,6 +43,7 @@ Based on problem analyzation and different techniques used to overcome the imbal
 •	Oversampling Using Adaptive Synthetic Sampling
 
 Conclusion
+
 Without using any sampling technique, I obtain a AP score of 0.84,F-1 score of 0.82 with knn and  voting classifier and bagging Classifier do provide improvement over knn but not significant improvement.
 Under sampling and Oversampling techniques do help in improving recall but at expense of significant decrease in precision resulting in decrease in overall F-1 score. In addition, in case of oversampling with svm smote and borderline smote, we obtain a AP score of 0.86 with voting classifier but F-1 score much less than knn trained on dataset without using any sampling techniques.
 Overall, Knn  trained on dataset without using any sampling techniques gave better results in all evaluation matrix
